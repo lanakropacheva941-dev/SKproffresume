@@ -68,7 +68,7 @@
     const contactItems=[];
     if(data.contacts.phone) contactItems.push('<a class="contact-item" href="tel:'+data.contacts.phone.replace(/[^+\d]/g,"")+'">'+data.contacts.phone+'</a>');
     if(data.contacts.email) contactItems.push('<a class="contact-item" href="mailto:'+data.contacts.email+'">'+data.contacts.email+'</a>');
-    if(data.contacts.telegram) contactItems.push('<a class="contact-item" href="'+data.contacts.telegram+'" target="_blank">Telegram</a>');
+    if(data.contacts.telegram) contactItems.push('<a class="contact-item" href="'+data.contacts.telegram+'" target="_blank" rel="noreferrer">Telegram · @SV_Abramo</a>');
     if(data.contacts.linkedin) contactItems.push('<a class="contact-item" href="'+data.contacts.linkedin+'" target="_blank">LinkedIn</a>');
     $("contactsList").innerHTML=contactItems.join("");
     setText("footerText",t(data.footer));
@@ -76,7 +76,7 @@
   function renderMedia(id,items,empty){
     const el=$(id);
     if(!items.length){el.innerHTML='<div class="empty-state">'+empty+'</div>';return;}
-    el.innerHTML=items.map(item=>`<article class="media-card"><span class="type">${item.type||"FILE"}</span><h3>${t(item.title)}</h3><p>${t(item.description)}</p><a href="${item.url}" target="_blank" rel="noreferrer">${t(data.labels.open)}</a></article>`).join("");
+    el.innerHTML=items.map(item=>`<article class="media-card">${item.image?'<img class="media-preview" src="'+item.image+'" alt="'+t(item.title)+'" loading="lazy">':""}<span class="type">${item.type||"FILE"}</span><h3>${t(item.title)}</h3><p>${t(item.description)}</p><a href="${item.url}" target="_blank" rel="noreferrer">${t(data.labels.open)}</a></article>`).join("");
   }
   $("langSwitch").addEventListener("click",()=>{lang=lang==="ru"?"en":"ru";localStorage.setItem("resume-lang",lang);render();});
   render();
