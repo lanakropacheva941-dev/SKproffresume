@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Светлана Кропачева — Operations Assistant">
+  <title>Светлана Кропачева — Operations Assistant</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#top">SK.</a>
+    <nav class="nav" id="nav"></nav>
+    <button class="lang-switch" id="langSwitch" aria-label="Switch language">EN</button>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-copy">
+        <p class="eyebrow" id="heroEyebrow"></p>
+        <h1 id="heroName"></h1>
+        <p class="hero-role" id="heroRole"></p>
+        <p class="hero-intro" id="heroIntro"></p>
+        <div class="hero-meta" id="heroMeta"></div>
+        <div class="hero-actions" id="heroActions"></div>
+      </div>
+      <aside class="portrait-card">
+        <div class="portrait-placeholder" id="portraitPlaceholder">
+          <span>PHOTO</span>
+        </div>
+        <img id="portrait" alt="">
+      </aside>
+    </section>
+
+    <section class="section" id="experience">
+      <div class="section-heading">
+        <p class="eyebrow" id="experienceEyebrow"></p>
+        <h2 id="experienceTitle"></h2>
+      </div>
+      <div class="timeline" id="experienceList"></div>
+    </section>
+
+    <section class="section split" id="education">
+      <div>
+        <div class="section-heading">
+          <p class="eyebrow" id="educationEyebrow"></p>
+          <h2 id="educationTitle"></h2>
+        </div>
+        <div id="educationList" class="stack"></div>
+      </div>
+      <div>
+        <div class="section-heading compact">
+          <p class="eyebrow" id="coursesEyebrow"></p>
+          <h2 id="coursesTitle"></h2>
+        </div>
+        <div id="coursesList" class="stack"></div>
+      </div>
+    </section>
+
+    <section class="section" id="skills">
+      <div class="section-heading">
+        <p class="eyebrow" id="skillsEyebrow"></p>
+        <h2 id="skillsTitle"></h2>
+      </div>
+      <div class="skill-cloud" id="skillsList"></div>
+      <div class="languages" id="languagesList"></div>
+    </section>
+
+    <section class="section" id="portfolio">
+      <div class="section-heading">
+        <p class="eyebrow" id="portfolioEyebrow"></p>
+        <h2 id="portfolioTitle"></h2>
+      </div>
+      <div class="media-grid" id="portfolioList"></div>
+    </section>
+
+    <section class="section" id="recommendations">
+      <div class="section-heading">
+        <p class="eyebrow" id="recommendationsEyebrow"></p>
+        <h2 id="recommendationsTitle"></h2>
+      </div>
+      <div class="media-grid" id="recommendationsList"></div>
+    </section>
+
+    <section class="section about-grid" id="about">
+      <div class="about-photo">
+        <img id="aboutPhoto" alt="">
+        <div class="about-photo-placeholder" id="aboutPhotoPlaceholder">ABOUT PHOTO</div>
+      </div>
+      <div>
+        <div class="section-heading">
+          <p class="eyebrow" id="aboutEyebrow"></p>
+          <h2 id="aboutTitle"></h2>
+        </div>
+        <div class="about-copy" id="aboutText"></div>
+      </div>
+    </section>
+
+    <section class="section contact-section" id="contacts">
+      <div class="section-heading">
+        <p class="eyebrow" id="contactsEyebrow"></p>
+        <h2 id="contactsTitle"></h2>
+      </div>
+      <div class="contacts" id="contactsList"></div>
+    </section>
+  </main>
+
+  <footer>
+    <span id="footerText"></span>
+  </footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
