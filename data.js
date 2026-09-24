@@ -49,13 +49,13 @@ window.RESUME_DATA = {
       ru:"Операционный специалист с опытом поддержки руководителей, контроля исполнения, управленческой отчётности, документооборота, межфункционального взаимодействия и координации внутренних процессов.",
       en:"Operations professional experienced in executive support, execution control, management reporting, documentation, cross-functional coordination and internal process management."
     },
-    photo:""
+    photo:"assets/photo/profile-official.png"
   },
 
   contacts: {
     phone:"+7 (953) 675-96-24",
     email:"lana_abramova_94@bk.ru",
-    telegram:"",
+    telegram:"https://t.me/SV_Abramo",
     linkedin:""
   },
 
@@ -258,8 +258,91 @@ window.RESUME_DATA = {
     {name:{ru:"Французский",en:"French"},level:"A1"}
   ],
 
-  portfolio:[],
-  recommendations:[],
+  portfolio:[
+    {
+      type:"MIND MAP",
+      title:{ru:"Повышение эффективности бизнес-процессов",en:"Improving Business Process Efficiency"},
+      description:{ru:"Майнд-карта: анализ, автоматизация, KPI, коммуникация, стандартизация и непрерывные улучшения.",en:"Mind map covering analysis, automation, KPIs, communication, standardization and continuous improvement."},
+      url:"assets/portfolio/mindmap-business-process-efficiency.png",
+      image:"assets/portfolio/mindmap-business-process-efficiency.png"
+    },
+    {
+      type:"MIND MAP",
+      title:{ru:"Рост эффективности процессов",en:"Process Efficiency Growth"},
+      description:{ru:"Радиальная карта по шести направлениям: люди, процессы, технологии, данные, клиент и риски.",en:"Radial map across six areas: people, processes, technology, data, customer and risks."},
+      url:"assets/portfolio/mindmap-process-efficiency-growth.png",
+      image:"assets/portfolio/mindmap-process-efficiency-growth.png"
+    },
+    {
+      type:"MIND MAP",
+      title:{ru:"Оптимизация бизнес-процессов",en:"Business Process Optimization"},
+      description:{ru:"Последовательная схема: диагностика, планирование, исполнение, измерение и улучшение.",en:"Step-by-step framework: diagnostics, planning, execution, measurement and improvement."},
+      url:"assets/portfolio/mindmap-business-process-optimization.png",
+      image:"assets/portfolio/mindmap-business-process-optimization.png"
+    },
+    {
+      type:"BANNER",
+      title:{ru:"Серверное оборудование для бизнеса",en:"Server Equipment for Business"},
+      description:{ru:"Рекламный баннер в темной технологичной стилистике.",en:"Advertising banner in a dark technology-focused style."},
+      url:"assets/portfolio/banner-server-equipment-dark.png",
+      image:"assets/portfolio/banner-server-equipment-dark.png"
+    },
+    {
+      type:"BANNER",
+      title:{ru:"Надежная серверная инфраструктура",en:"Reliable Server Infrastructure"},
+      description:{ru:"Светлый рекламный баннер по поставке, модернизации и обслуживанию серверной инфраструктуры.",en:"Light advertising banner for server infrastructure supply, modernization and support."},
+      url:"assets/portfolio/banner-server-infrastructure-light.png",
+      image:"assets/portfolio/banner-server-infrastructure-light.png"
+    },
+    {
+      type:"ARTICLE",
+      title:{ru:"Сколько стоит серверное оборудование для компании",en:"Server Equipment Budget for a Company"},
+      description:{ru:"Публичный материал QTECH о расчете бюджета и стоимости серверной инфраструктуры.",en:"Public QTECH material on server infrastructure budgeting and costs."},
+      url:"https://www.qtech.ru/press/articles/skolko-stoit-servernoe-oborudovanie-dlya-kompanii-raschet-byudzheta-i-stoimosti-infrastruktury/"
+    },
+    {
+      type:"ARTICLE",
+      title:{ru:"Серверный комплекс и ЦОД",en:"Server Complex and Data Center"},
+      description:{ru:"Публичный материал QTECH о проектировании и подборе оборудования для корпоративной инфраструктуры.",en:"Public QTECH material on designing and selecting equipment for corporate infrastructure."},
+      url:"https://www.qtech.ru/press/articles/servernyy-kompleks-i-tsod-proektirovanie-i-pokupka-oborudovaniya-dlya-korporatsiy/"
+    },
+    {
+      type:"ARTICLE",
+      title:{ru:"Обзор серверов QTECH третьего поколения",en:"QTECH Third-Generation Server Overview"},
+      description:{ru:"Публичный обзор серверных платформ и сценариев их применения.",en:"Public overview of server platforms and their use cases."},
+      url:"https://www.qtech.ru/press/news/obzor-serverov-qtech-tretego-pokoleniya/"
+    }
+  ],
+  recommendations:[
+    {
+      type:"LETTER",
+      title:{ru:"ООО Trust consulting",en:"Trust consulting LLC"},
+      description:{ru:"Благодарственное письмо за работу в должности менеджера по закупкам и снабжению.",en:"Recommendation letter for work as Procurement & Supply Manager."},
+      url:"assets/recommendations/trust-consulting.png",
+      image:"assets/recommendations/trust-consulting.png"
+    },
+    {
+      type:"LETTER",
+      title:{ru:"ООО «МАКСИМУМ»",en:"MAXIMUM LLC"},
+      description:{ru:"Благодарственное письмо за работу в должности шеф-повара.",en:"Recommendation letter for work as Head Chef."},
+      url:"assets/recommendations/maximum.png",
+      image:"assets/recommendations/maximum.png"
+    },
+    {
+      type:"LETTER",
+      title:{ru:"ООО «ГОЛДКАФТ»",en:"GOLDKAFT LLC"},
+      description:{ru:"Благодарственное письмо за работу в должности администратора.",en:"Recommendation letter for work as Administrator."},
+      url:"assets/recommendations/goldkaft.png",
+      image:"assets/recommendations/goldkaft.png"
+    },
+    {
+      type:"LETTER",
+      title:{ru:"ООО «Такси 207»",en:"Taxi 207 LLC"},
+      description:{ru:"Благодарственное письмо за работу в должности старшего оператора.",en:"Recommendation letter for work as Senior Operator."},
+      url:"assets/recommendations/taxi-207.png",
+      image:"assets/recommendations/taxi-207.png"
+    }
+  ],
 
   about:{
     photo:"",
