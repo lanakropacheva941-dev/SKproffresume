@@ -49,7 +49,7 @@ window.RESUME_DATA = {
       ru:"Операционный специалист с опытом поддержки руководителей, контроля исполнения, управленческой отчётности, документооборота, межфункционального взаимодействия и координации внутренних процессов.",
       en:"Operations professional experienced in executive support, execution control, management reporting, documentation, cross-functional coordination and internal process management."
     },
-    photo:"assets/photo/profile-official.png"
+    photo:"assets/photo/profile-official.webp"
   },
 
   contacts: {
@@ -263,36 +263,36 @@ window.RESUME_DATA = {
       type:"MIND MAP",
       title:{ru:"Повышение эффективности бизнес-процессов",en:"Improving Business Process Efficiency"},
       description:{ru:"Майнд-карта: анализ, автоматизация, KPI, коммуникация, стандартизация и непрерывные улучшения.",en:"Mind map covering analysis, automation, KPIs, communication, standardization and continuous improvement."},
-      url:"assets/portfolio/mindmap-business-process-efficiency.png",
-      image:"assets/portfolio/mindmap-business-process-efficiency.png"
+      url:"assets/portfolio/mindmap-business-process-efficiency.webp",
+      image:"assets/portfolio/mindmap-business-process-efficiency.webp"
     },
     {
       type:"MIND MAP",
       title:{ru:"Рост эффективности процессов",en:"Process Efficiency Growth"},
       description:{ru:"Радиальная карта по шести направлениям: люди, процессы, технологии, данные, клиент и риски.",en:"Radial map across six areas: people, processes, technology, data, customer and risks."},
-      url:"assets/portfolio/mindmap-process-efficiency-growth.png",
-      image:"assets/portfolio/mindmap-process-efficiency-growth.png"
+      url:"assets/portfolio/mindmap-process-efficiency-growth.webp",
+      image:"assets/portfolio/mindmap-process-efficiency-growth.webp"
     },
     {
       type:"MIND MAP",
       title:{ru:"Оптимизация бизнес-процессов",en:"Business Process Optimization"},
       description:{ru:"Последовательная схема: диагностика, планирование, исполнение, измерение и улучшение.",en:"Step-by-step framework: diagnostics, planning, execution, measurement and improvement."},
-      url:"assets/portfolio/mindmap-business-process-optimization.png",
-      image:"assets/portfolio/mindmap-business-process-optimization.png"
+      url:"assets/portfolio/mindmap-business-process-optimization.webp",
+      image:"assets/portfolio/mindmap-business-process-optimization.webp"
     },
     {
       type:"BANNER",
       title:{ru:"Серверное оборудование для бизнеса",en:"Server Equipment for Business"},
       description:{ru:"Рекламный баннер в темной технологичной стилистике.",en:"Advertising banner in a dark technology-focused style."},
-      url:"assets/portfolio/banner-server-equipment-dark.png",
-      image:"assets/portfolio/banner-server-equipment-dark.png"
+      url:"assets/portfolio/banner-server-equipment-dark.webp",
+      image:"assets/portfolio/banner-server-equipment-dark.webp"
     },
     {
       type:"BANNER",
       title:{ru:"Надежная серверная инфраструктура",en:"Reliable Server Infrastructure"},
       description:{ru:"Светлый рекламный баннер по поставке, модернизации и обслуживанию серверной инфраструктуры.",en:"Light advertising banner for server infrastructure supply, modernization and support."},
-      url:"assets/portfolio/banner-server-infrastructure-light.png",
-      image:"assets/portfolio/banner-server-infrastructure-light.png"
+      url:"assets/portfolio/banner-server-infrastructure-light.webp",
+      image:"assets/portfolio/banner-server-infrastructure-light.webp"
     },
     {
       type:"ARTICLE",
@@ -317,30 +317,26 @@ window.RESUME_DATA = {
     {
       type:"LETTER",
       title:{ru:"ООО Trust consulting",en:"Trust consulting LLC"},
-      description:{ru:"Благодарственное письмо за работу в должности менеджера по закупкам и снабжению.",en:"Recommendation letter for work as Procurement & Supply Manager."},
-      url:"assets/recommendations/trust-consulting.png",
-      image:"assets/recommendations/trust-consulting.png"
+      description:{ru:"Проект благодарственного письма за работу в должности менеджера по закупкам и снабжению.",en:"Draft recommendation letter for work as Procurement & Supply Manager."},
+      url:"assets/recommendations/trust-consulting.html"
     },
     {
       type:"LETTER",
       title:{ru:"ООО «МАКСИМУМ»",en:"MAXIMUM LLC"},
-      description:{ru:"Благодарственное письмо за работу в должности шеф-повара.",en:"Recommendation letter for work as Head Chef."},
-      url:"assets/recommendations/maximum.png",
-      image:"assets/recommendations/maximum.png"
+      description:{ru:"Проект благодарственного письма за работу в должности шеф-повара.",en:"Draft recommendation letter for work as Head Chef."},
+      url:"assets/recommendations/maximum.html"
     },
     {
       type:"LETTER",
       title:{ru:"ООО «ГОЛДКАФТ»",en:"GOLDKAFT LLC"},
-      description:{ru:"Благодарственное письмо за работу в должности администратора.",en:"Recommendation letter for work as Administrator."},
-      url:"assets/recommendations/goldkaft.png",
-      image:"assets/recommendations/goldkaft.png"
+      description:{ru:"Проект благодарственного письма за работу в должности администратора.",en:"Draft recommendation letter for work as Administrator."},
+      url:"assets/recommendations/goldkaft.html"
     },
     {
       type:"LETTER",
       title:{ru:"ООО «Такси 207»",en:"Taxi 207 LLC"},
-      description:{ru:"Благодарственное письмо за работу в должности старшего оператора.",en:"Recommendation letter for work as Senior Operator."},
-      url:"assets/recommendations/taxi-207.png",
-      image:"assets/recommendations/taxi-207.png"
+      description:{ru:"Проект благодарственного письма за работу в должности старшего оператора.",en:"Draft recommendation letter for work as Senior Operator."},
+      url:"assets/recommendations/taxi-207.html"
     }
   ],
 
