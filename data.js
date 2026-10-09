@@ -317,25 +317,25 @@ window.RESUME_DATA = {
     {
       type:"LETTER",
       title:{ru:"ООО Trust consulting",en:"Trust consulting LLC"},
-      description:{ru:"Проект благодарственного письма за работу в должности менеджера по закупкам и снабжению.",en:"Draft recommendation letter for work as Procurement & Supply Manager."},
+      description:{ru:"Благодарственное письмо за работу в должности менеджера по закупкам и снабжению.",en:"Recommendation letter for work as Procurement & Supply Manager."},
       url:"assets/recommendations/trust-consulting.html"
     },
     {
       type:"LETTER",
       title:{ru:"ООО «МАКСИМУМ»",en:"MAXIMUM LLC"},
-      description:{ru:"Проект благодарственного письма за работу в должности шеф-повара.",en:"Draft recommendation letter for work as Head Chef."},
+      description:{ru:"Благодарственное письмо за работу в должности шеф-повара.",en:"Recommendation letter for work as Head Chef."},
       url:"assets/recommendations/maximum.html"
     },
     {
       type:"LETTER",
       title:{ru:"ООО «ГОЛДКАФТ»",en:"GOLDKAFT LLC"},
-      description:{ru:"Проект благодарственного письма за работу в должности администратора.",en:"Draft recommendation letter for work as Administrator."},
+      description:{ru:"Благодарственное письмо за работу в должности администратора.",en:"Recommendation letter for work as Administrator."},
       url:"assets/recommendations/goldkaft.html"
     },
     {
       type:"LETTER",
       title:{ru:"ООО «Такси 207»",en:"Taxi 207 LLC"},
-      description:{ru:"Проект благодарственного письма за работу в должности старшего оператора.",en:"Draft recommendation letter for work as Senior Operator."},
+      description:{ru:"Благодарственное письмо за работу в должности старшего оператора.",en:"Recommendation letter for work as Senior Operator."},
       url:"assets/recommendations/taxi-207.html"
     }
   ],
